@@ -1,0 +1,207 @@
+
+/*
+  display: flex;
+
+   justify-content: 
+            flex-start; -(default)
+            flex-end; 
+            center;
+            space-between;
+            space-around;
+  
+  align-items:   
+             flex-start;
+             flex-end;
+             center;
+             baseline;
+             stretch; - (default)
+            
+  
+  flex-direction:
+          row. (default)
+          row-reverse; - contraire
+          column: colonne;
+          column: reverse;
+
+  order: 
+          <
+          
+  flex-wrap :
+              nowrap;  - (default)
+              wrap;
+              wrap-reverse;
+  
+  flex-flow (flex-wrap and flex-direction) :
+             direction+wrap ;
+
+  align-content: 
+
+               flex-start;
+               flex-end;
+               center;
+               space-between;
+               space-around;
+               stretch; (default)
+             
+            
+  justify-content: 
+            flex-start; -(default)
+            flex-end; 
+            center;
+            space-between;
+            space-around;
+
+order :
+
+   align-self (over align-items):
+               flex-start;
+               flex-end;
+               center;
+               baseline;
+               stretch;
+
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Montserrat+Subrayada&family=Press+Start+2P&display=swap');
+
+
+html
+{
+  background: grey;
+  background-image: url("https://ekladata.com/6pULMD2lK6uMG7dPVO6ZZNdVu0Y.jpg");}
+    
+
+.centrage
+
+{
+  display:flex;
+  align-items: center;
+  border: 1px solid black;
+  justify-content: center; 
+  background: linear-gradient(0.25turn, #3f87a6, #943f70, #af1818);
+  border-radius: 20%;
+  
+}
+
+
+
+h1,p
+
+{
+  text-align:center;
+}
+
+#tittle
+
+{
+  font-family: 'Chewy', cursive;
+}
+
+
+
+
+
+
+
+
+
+.container
+
+              {
+                display: flex;
+                
+              }
+
+
+.container div, .boite div
+
+                {
+                  
+                  border: 1px solid black;
+                  
+                  
+                  
+                }
+
+
+.one
+
+        {
+          border-radius: 50%;
+          color: rgb(0, 47, 255);
+            text-shadow: 1px 1px 2px rgb(255, 0, 0), 0 0 1em rgb(110, 16, 71), 0em 0 1em rgb(134, 12, 104);
+          font-family: 'Chewy', cursive;
+          flex: 1;
+          background-image: url("https://pbs.twimg.com/media/DaMIb0KUwAALfNu.jpg:large")
+          
+          
+        }
+
+.two
+
+        {
+          border-radius: 50%;
+          color: rgb(252, 0, 0);
+          text-shadow: 1px 1px 2px rgb(156, 13, 13), 0 0 1em rgb(126, 7, 120), 0em 0 1em rgb(255, 0, 0);
+          font-family: 'Montserrat Subrayada', sans-serif;
+          flex: 1;
+          background-image: url("https://66.media.tumblr.com/ee8796e286630997aa70bbee17f49b63/50908bad11ece8c7-25/s500x750/d44b1a462e748b446ac712e4644010373f44a150.jpg")
+         
+         
+        }
+
+.three
+
+        {
+          color: rgb(0, 225, 255);
+          text-shadow: 1px 1px 2px rgb(80, 13, 156), 0 0 1em rgb(126, 7, 120), 0em 0 1em rgb(0, 195, 255);
+          border-radius: 50%;
+          font-family: 'Press Start 2P', cursive;
+          flex: 1;
+          background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT_zD-JLjY-nnEnm_gEDMrGjCHlDYxjzq49EA&usqp=CAU")
+          
+         }
+
+.boite
+
+              {
+                display:flex;
+                flex-direction: column;
+              }
+
+
+
+
+.un
+
+
+           {
+            color: rgb(255, 0, 0);
+            text-shadow: 1px 1px 2px rgb(13, 34, 156), 0 0 1em blue, 0em 0 1em blue;
+            font-family: 'Chewy', cursive;
+            flex: 1;
+            background-image: url("https://s3.amazonaws.com/sensortower-itunes/blog/2018/10/altos-odyssey-revenue.jpg")
+           }
+
+
+
+.deux
+
+          {
+            color: white;
+            text-shadow: 1px 1px 2px rgb(13, 34, 156), 0 0 1em blue, 0em 0 1em blue;
+            font-family: 'Montserrat Subrayada', sans-serif;
+            flex: 1;
+            background-image: url("https://images8.alphacoders.com/868/thumb-1920-868835.jpg");
+          }
+
+.trois
+
+         {
+            color: rgb(0, 217, 255);
+            text-shadow: 1px 1px 2px rgb(14, 228, 146), 0 0 1em blue, 0em 0 1em blue;
+            font-family: 'Press Start 2P', cursive;
+            flex: 1;
+            background-image: url("https://i.pinimg.com/originals/a3/6b/39/a36b3977181790bca24beeb2b37bc84a.jpg");
+         }
